@@ -1,0 +1,106 @@
+body {
+    font-family: "Segoe UI", sans-serif;
+    background-color: #fff9f8;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Меню */
+.menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: #d67c7c;
+    display: flex;
+    justify-content: center;
+}
+
+.menu li {
+    margin: 0;
+}
+
+.menu a {
+    display: block;
+    padding: 12px 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.menu a:hover {
+    background-color: #b15f5f;
+}
+
+/* Заголовок */
+header {
+    text-align: center;
+    background-color: #ffe6e6;
+    padding: 30px 10px;
+}
+
+.subtitle {
+    font-style: italic;
+    color: #666;
+}
+
+/* Історія */
+.story {
+    width: 80%;
+    margin: 30px auto;
+    line-height: 1.6;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.main-photo {
+    float: right;
+    margin: 0 0 15px 20px;
+    border-radius: 10px;
+    width: 300px;
+}
+
+/* Галерея */
+.gallery {
+    text-align: center;
+    padding: 20px;
+}
+
+.photos img {
+    margin: 10px;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.photos img:hover {
+    transform: scale(1.05);
+}
+
+/* Таблиця */
+.table-section {
+    width: 80%;
+    margin: 0 auto 40px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+}
+
+th, td {
+    border: 1px solid #e1b6b6;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #f8dede;
+}
+
+footer {
+    background-color: #d67c7c;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
